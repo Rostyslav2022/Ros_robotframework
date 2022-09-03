@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.8.6 on win32)" generated="20220903 22:49:57.921" rpa="false" schemaversion="3">
+<suite id="s1" name="Test Login Rf" source="C:\Users\Ros\Documents\GitHub\Ros_robotframework\test_login_rf.robot">
+<test id="s1-t1" name="Login to the system" line="14">
+<kw name="Open login page">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${LOGIN URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220903 22:49:58.062" level="INFO">Opening browser 'Chrome' to base url 'https://scouts-test.futbolkolektyw.pl/en'.</msg>
+<msg timestamp="20220903 22:49:58.062" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg timestamp="20220903 22:49:58.062" level="FAIL">WebDriverException: Message: 'chromedriver' executable needs to be in PATH. Please see https://chromedriver.chromium.org/home
+</msg>
+<status status="FAIL" starttime="20220903 22:49:58.062" endtime="20220903 22:49:58.062"/>
+</kw>
+<kw name="Title Should Be" library="SeleniumLibrary">
+<arg>Scouts panel - sign in</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<status status="NOT RUN" starttime="20220903 22:49:58.062" endtime="20220903 22:49:58.062"/>
+</kw>
+<status status="FAIL" starttime="20220903 22:49:58.062" endtime="20220903 22:49:58.062"/>
+</kw>
+<kw name="Type in email">
+<status status="NOT RUN" starttime="20220903 22:49:58.062" endtime="20220903 22:49:58.062"/>
+</kw>
+<kw name="Type in password">
+<status status="NOT RUN" starttime="20220903 22:49:58.062" endtime="20220903 22:49:58.062"/>
+</kw>
+<kw name="Click on the Submit button">
+<status status="NOT RUN" starttime="20220903 22:49:58.062" endtime="20220903 22:49:58.062"/>
+</kw>
+<kw name="Assert dashboard">
+<status status="NOT RUN" starttime="20220903 22:49:58.062" endtime="20220903 22:49:58.062"/>
+</kw>
+<kw name="[Teardown] Close Browser">
+<status status="NOT RUN" starttime="20220903 22:49:58.062" endtime="20220903 22:49:58.062"/>
+</kw>
+<status status="FAIL" starttime="20220903 22:49:58.062" endtime="20220903 22:49:58.062">WebDriverException: Message: 'chromedriver' executable needs to be in PATH. Please see https://chromedriver.chromium.org/home
+</status>
+</test>
+<doc>Suite description</doc>
+<status status="FAIL" starttime="20220903 22:49:57.921" endtime="20220903 22:49:58.062"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Test Login Rf">Test Login Rf</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

@@ -1,0 +1,16 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="pages.login_page.__next" />
+          <option value="page.base_page" />
+          <option value="str.find_element" />
+          <option value="str.text" />
+          <option value="test_cases.Checking_text_on_the_button_tc4.TestCheckButtonText.driver" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
