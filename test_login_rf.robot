@@ -18,7 +18,6 @@ ${PLAYERAGE}        xpath=//input[@name='age']
 ${PLAYERLEG}        xpath=//*[@id='mui-component-select-leg']
 ${PLAYERRIGHTLEG}        xpath=//li[@data-value='right']
 ${PLAYERMAINPOSITION}       xpath=//input[@name='mainPosition']
-${PLAYERNAMEINMENU}     xpath=//ul[2]/div[1]/div/span[contains(text(),'')]
 ${MAINPOSITION}   xpath = //input[@name='mainPosition']
 ${ADDPLAYER}   xpath=//*[@id="__next"]/div[1]/main/div[3]/div[2]/div/div/a/button/span[1]
 ${INCORRECTPASSWORDMESSAGE}  xpath=//*[@id="__next"]/form/div/div[1]/div[3]/span
