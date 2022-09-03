@@ -18,7 +18,6 @@ ${PLAYERAGE}        xpath=//input[@name='age']
 ${PLAYERLEG}        xpath=//*[@id='mui-component-select-leg']
 ${PLAYERRIGHTLEG}        xpath=//li[@data-value='right']
 ${PLAYERMAINPOSITION}       xpath=//input[@name='mainPosition']
-${MAINPOSITION}   xpath = //input[@name='mainPosition']
 ${ADDPLAYER}   xpath=//*[@id="__next"]/div[1]/main/div[3]/div[2]/div/div/a/button/span[1]
 ${INCORRECTPASSWORDMESSAGE}  xpath=//*[@id="__next"]/form/div/div[1]/div[3]/span
 ${CLEARALL}   xpath=//*[@id="__next"]/div[1]/main/div[2]/form/div[3]/button[2]/span[1]
@@ -87,8 +86,6 @@ Click on the Sign in button
     Click Element   ${SIGNINBUTTON}
 Click on the Clear button
     Click Element    ${CLEARALL}
-Click on the Submit button
-    Click Element  xpath=//button[@type='submit']/span[1]
 Click on the language button
     Click Element   ${LANGUAGEBUTTON}
 Click on the players count element
@@ -96,7 +93,7 @@ Click on the players count element
 Click on Add Player
     Click Element       ${ADDPLAYER}
 Type in name
-    Input Text      ${PLAYERNAME}       Zinedin
+    Input Text      xpath=//input[@name='name']      Zinedin
 Type in surname
     Input Text      ${PLAYERSURNAME}       Zidan
 Select age
@@ -108,7 +105,6 @@ Type in main position
     Input Text      ${PLAYERMAINPOSITION}       Midfielder
 Click on the Submit button
     Click Element       ${SUBMITBUTTON}
-
 Assert dashboard
     wait until element is visible  ${PAGELOGO}
     title should be  Scouts panel
