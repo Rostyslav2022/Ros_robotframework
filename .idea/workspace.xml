@@ -5,11 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db399d52-7352-4071-b1b0-5558187f0191" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/selenium-screenshot-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alert2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium-screenshot-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium-screenshot-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium-screenshot-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium-screenshot-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium-screenshot-7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium-screenshot-8.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alert.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/log.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/output.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-screenshot-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-screenshot-2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_login_rf.robot" beforeDir="false" afterPath="$PROJECT_DIR$/test_login_rf.robot" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +50,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../challenge_portfolio_pati" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
